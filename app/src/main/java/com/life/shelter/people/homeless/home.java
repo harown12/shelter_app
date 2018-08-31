@@ -13,6 +13,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AutoCompleteTextView;
+import android.widget.ImageView;
+import android.widget.SearchView;
+
+import static com.life.shelter.people.homeless.R.id.fragment_address_search;
 
 public class home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -90,4 +95,6 @@ public class home extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-}
+
+
+    }

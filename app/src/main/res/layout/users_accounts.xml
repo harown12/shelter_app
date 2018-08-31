@@ -8,7 +8,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="7dp"
-        android:background="#40ff00"
+        android:background="#101010"
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"/>
 
@@ -42,19 +42,19 @@
             <EditText
                 style="@style/lisItemTextStyle"
                 android:layout_marginBottom="10dp"
-                android:text="Full name"
+                android:text="@string/name"
                 android:textColor="#0d5ca6" />
 
             <EditText
                 style="@style/lisItemTextStyle"
                 android:layout_marginBottom="10dp"
-                android:text="Address"
+                android:text="@string/address"
                 android:textColor="#0d5ca6" />
 
             <EditText
                 style="@style/lisItemTextStyle"
                 android:layout_marginBottom="10dp"
-                android:text="City, Country"
+                android:text="@string/city"
                 android:textColor="#0d5ca6" />
 
         </LinearLayout>
@@ -73,7 +73,7 @@
             android:id ="@+id/push_button"
             android:layout_width="100dp"
             android:layout_height="60dp"
-            android:text="Cancle"
+            android:text="@string/cancel"
             android:background="@drawable/button_bg_round"
             android:padding="15dp"
             />
@@ -82,7 +82,7 @@
         android:id ="@+id/push_button1"
         android:layout_width="100dp"
         android:layout_height="60dp"
-        android:text="Submit"
+        android:text="@string/submit"
         android:background="@drawable/button_bg_round"
         android:padding="15dp"
         android:layout_alignParentRight="true"/>

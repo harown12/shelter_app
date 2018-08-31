@@ -11,7 +11,7 @@
     <string name="search">Search Here</string>
     <string name="camera">open the camera</string>
     <string name="submit">Submit</string>
-    <string name="cancel">حذف</string>
+    <string name="cancel">Cancel</string>
     <string name="name">Name of the person</string>
     <string name="address">Type the address here</string>
     <string name="city">Write the city and state</string>
@@ -20,6 +20,7 @@
     <string name="instagram">Instagram</string>
     <string name="facebook">Facebook</string>
     <string name="twitter">Twitter</string>
+    <string name="donate">Donate</string>
     <!-- Navigation drawer -->
     <string name="shelter">Shelter ملجأ</string>
     <string name="mail">shelter.new.life@gmail.com</string>

@@ -32,19 +32,19 @@
 
             <TextView
                 style="@style/lisItemTextStyle"
-                android:text="Full name"
+                android:text="@string/name"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#008000"/>
 
             <TextView
                 style="@style/lisItemTextStyle"
-                android:text="Address"
+                android:text="@string/address"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#0000CD" />
 
             <TextView
                 style="@style/lisItemTextStyle"
-                android:text="City, Country"
+                android:text="@string/city"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="#0000CD" />
 
@@ -62,7 +62,7 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:src="@drawable/facebook"
-                    android:text="Facebook" />
+                    android:text="@string/facebook" />
 
                 <ImageButton
                     android:id="@+id/twitter"
@@ -72,7 +72,7 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:src="@drawable/twitter"
-                    android:text="Twitter" />
+                    android:text="@string/twitter" />
 
                 <ImageButton
                     android:id="@+id/email"
@@ -82,7 +82,7 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:src="@drawable/email_1"
-                    android:text="E-mail" />
+                    android:text="@string/email" />
 
                 <ImageButton
                     android:id="@+id/donate"
@@ -91,7 +91,7 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:src="@drawable/donate"
-                    android:text="Donate" />
+                    android:text="@string/donate" />
             </LinearLayout>
 
         </LinearLayout>
