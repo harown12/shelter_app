@@ -13,31 +13,34 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:orientation="horizontal">
+
         <ImageView
             style="@style/AccountActivityImagesStyle"
-            android:src="@drawable/man"/>
+            android:src="@drawable/man" />
+
         <ImageView
             style="@style/AccountActivityImagesStyle"
-            android:src="@drawable/woman"/>
+            android:src="@drawable/woman" />
+
         <ImageView
             style="@style/AccountActivityImagesStyle"
-            android:src="@drawable/maan"/>
+            android:src="@drawable/maan" />
 
     </LinearLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="7dp"
-        android:background="#000000"
         android:layout_marginLeft="4dp"
-        android:layout_marginRight="4dp"/>
+        android:layout_marginRight="4dp"
+        android:background="#000000" />
 
     <android.support.v7.widget.SearchView
         android:id="@+id/search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:queryHint="@string/search"
-        app:iconifiedByDefault="false" />
-
+        app:iconifiedByDefault="false"
+        app:queryHint="@string/search"/>
 
 
     <ListView xmlns:android="http://schemas.android.com/apk/res/android"
